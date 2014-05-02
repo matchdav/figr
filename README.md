@@ -13,13 +13,14 @@ npm install figr
 ```
 - /config
 --- all.js
---- development.js
+--- development.json
 --- production.js
---- staging.js
+--- staging.json
 --- test.js
 ```
 
-e.g. ```NODE_ENV=development``` would result in a merge of ```all``` and ```development``` exports.
+e.g. ```NODE_ENV=development``` would result in a merge of ```all```'s exports object and the ```development``` object.
+i.e. you can use module.exports or a JSON file.
 
 # API
 

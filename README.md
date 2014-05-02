@@ -1,6 +1,6 @@
 ## figr
 
-# Autobootstrap your config files.
+Autobootstrap your config.  Looks for $CWD/config and loads the config files into a config object.
 
 # Installation
 
@@ -19,6 +19,7 @@ npm install figr
 --- test.js
 ```
 
+e.g. ```NODE_ENV=development``` would result in a merge of ```all``` and ```development``` exports.
 
 # API
 

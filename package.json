@@ -1,6 +1,6 @@
 {
   "name": "figr",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a little config bootstrap.",
   "main": "index.js",
   "scripts": {
@@ -29,8 +29,5 @@
   "devDependencies": {
     "mocha": "^1.17.1",
     "express": "^3.5.0"
-  },
-  "readme": "README.md",
-  "_id": "figr@0.0.2",
-  "_from": "figr@~0.0.2"
+  }
 }
